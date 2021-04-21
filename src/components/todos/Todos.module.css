@@ -1,0 +1,45 @@
+.todos {
+  margin-top: 2rem;
+}
+.todos h1 {
+  color: #333;
+  /* margin-bottom: 1rem; */
+}
+.todos__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* todo */
+.todo {
+  padding: var(--default-gap-xs);
+  margin-bottom: 2rem;
+}
+.todo__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo__header p{
+    padding: 1rem;
+    color:#fff
+}
+
+.todo__content {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.todo__content > div > p >span,
+.todo__description span{
+    font-weight:550;
+}
+.todo__content p{
+    margin-bottom: .5rem;
+}
+.todo__bottom{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,19 @@
+.header {
+  min-height: 10vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--default-gap-xs);
+  /* border: 1px solid black; */
+}
+.header__content{
+  cursor: pointer;
+}
+.header__content h3{
+  color: #333;
+}
